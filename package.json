@@ -1,0 +1,25 @@
+{
+  "name": "tp5",
+  "version": "1.0.0",
+  "description": "tp 5 node",
+  "homepage": "https://github.com/ValentinaElterman/TP-5---Primer-servidor-con-Node-y-Express#readme",
+  "bugs": {
+    "url": "https://github.com/ValentinaElterman/TP-5---Primer-servidor-con-Node-y-Express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinaElterman/TP-5---Primer-servidor-con-Node-y-Express.git"
+  },
+  "license": "ISC",
+  "author": "valentina elterman y ailin severino",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
