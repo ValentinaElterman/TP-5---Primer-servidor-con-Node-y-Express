@@ -14,3 +14,4 @@ Instrucciones:
 - Ingresas http://localhost:3000 para ver el mensaje de bienvenida.
 - Ingresas http://localhost:3000/hora para ver la hora actual.
 - Ingresas http://localhost:3000/fecha-completa para ver la fecha completa.
+- Para verificar el error 404 escribir mal alguno de los http.
