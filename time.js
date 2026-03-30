@@ -1,7 +1,7 @@
 function HoraActual() {
     const ahora = new Date();
     const horaFormateada = ahora.toTimeString().slice(0, 8);
-    return `La hora actual es: ${horaFormateada}`;
+    return `la hora actual es: ${horaFormateada}`;
 }
 
 function FechaCompleta() {
@@ -16,7 +16,7 @@ function FechaCompleta() {
     const año = ahora.getFullYear();
     const hora = HoraActual();
 
-    return `Hoy es ${dia} ${numDia} de ${nombreMes} de ${año}, y son las ${hora}`;
+    return `Hoy es ${dia} ${numDia} de ${nombreMes} de ${año}, y ${hora}`;
 }
 
 export { HoraActual, FechaCompleta };
